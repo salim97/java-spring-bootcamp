@@ -45,7 +45,6 @@ public class FirebaseController {
 
         Map<String, Object> response = new HashMap<>();
         response.put("success", true);
-        response.put("reset link", link);
         return response;
 
     }
